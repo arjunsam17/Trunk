@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[2.6.0.201103160035-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>src/main/webapp/WEB-INF/flows/indexflow.xml</file>
+			<name><![CDATA[indexflow]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:myapp|3:src/main/webapp/WEB-INF/spring-config.xml]]></beans-config>
+		</config>
+	</configs>
+</webflow-project-description>
