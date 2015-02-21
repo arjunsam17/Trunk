@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/webflow
         http://www.springframework.org/schema/webflow/spring-webflow-2.0.xsd">
 
-	<view-state id="start" view="index">
-		<secured attributes="ROLE_USER" />
+	<view-state id="start" view="approveProject">
+		<!-- <secured attributes="ROLE_USER" /> -->
 		<on-render>
 			<evaluate expression="userDataService.getUserDataById(1)"></evaluate>
 		</on-render>
